@@ -54,3 +54,41 @@
 // a=+prompt("enter your value:")
 // b=+prompt("enter your value:")
 // console.log(TRUE(a,b))
+// 8.Create a function that takes two strings as arguments and returns either true or false depending on whether the total number of characters in the first string is equal to the total number of characters in the second string.
+// function eight(s1,s2){
+//    if(s1.length==s2.length){
+//     return true
+//    }else{
+//     return false
+//    }
+// }
+// string1=prompt("enter your string: ")
+// string2=prompt("enter your string: ")
+// console.log(eight(string1,string2))
+
+// 24. Print Patter using loop.
+
+// // 1
+// // 1 2
+// // 1 2 3
+// // 1 2 3 4
+// //   1 2 3 4 5
+// for(i=1;i<=1;i++){
+//     for(j=1;j<=5;j++){
+//         if(j==1)
+//             continue
+//         console.log(j) 
+//     }
+   
+// }
+// 32. Reverse a number using while Loop
+
+// 			Input: 123
+// 			Output: 321
+n=prompt("enter your number: ")
+s=""
+for(i=n.length;i>=0;i--){
+    s=s+i
+    console.log(s)
+}
+
